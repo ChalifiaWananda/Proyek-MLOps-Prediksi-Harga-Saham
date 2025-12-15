@@ -1,0 +1,27 @@
+{
+  "model_name": "XGBoost",
+  "accuracy": 0.5714285714285714,
+  "parameters": {
+    "subsample": 0.6,
+    "reg_lambda": 0.5,
+    "reg_alpha": 0.1,
+    "n_estimators": 50,
+    "max_depth": 2,
+    "learning_rate": 0.01,
+    "gamma": 0,
+    "colsample_bytree": 0.9
+  },
+  "features": [
+    "Return_1d",
+    "Return_5d",
+    "MA_5",
+    "MA_20",
+    "Volume_Ratio"
+  ],
+  "trained_date": "2025-12-15T20:27:07.065365",
+  "data_shape": [
+    454,
+    5
+  ],
+  "test_samples": 91
+}

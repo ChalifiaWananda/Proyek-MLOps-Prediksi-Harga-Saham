@@ -1,0 +1,47 @@
+{
+  "model": "XGBoost",
+  "stage": "final_training",
+  "tickers": [
+    "BBCA.JK",
+    "BMRI.JK",
+    "TLKM.JK",
+    "ASII.JK",
+    "ICBP.JK"
+  ],
+  "metrics": {
+    "accuracy": 0.5831663326653307,
+    "precision": 0.5362694300518135,
+    "recall": 0.46621621621621623,
+    "f1_score": 0.4987951807228916,
+    "roc_auc": 0.5934440758447979
+  },
+  "best_parameters": {
+    "subsample": 0.8,
+    "reg_lambda": 2,
+    "reg_alpha": 0.5,
+    "n_estimators": 200,
+    "min_child_weight": 3,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "gamma": 0,
+    "colsample_bytree": 0.8
+  },
+  "features": [
+    "Return_1d",
+    "Return_5d",
+    "Return_20d",
+    "MA_5",
+    "MA_20",
+    "MA_50",
+    "Volume_Ratio",
+    "High_Low_Range",
+    "Volatility_20",
+    "RSI_14",
+    "Ticker_BBCA.JK",
+    "Ticker_BMRI.JK",
+    "Ticker_ICBP.JK",
+    "Ticker_TLKM.JK"
+  ],
+  "training_date": "2025-12-15 21:00:23",
+  "data_period": "2023-02-23 to 2025-12-12"
+}
