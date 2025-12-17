@@ -42,6 +42,8 @@ Monitoring & Logging
 ```
 .
 ├── data/
+│   └── multistock_tuning_data.csv
+│   └── sample_data.csv
 ├── models/
 │   └── best_model.pkl
 ├── src/
